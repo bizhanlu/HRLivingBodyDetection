@@ -1,0 +1,6 @@
+framework module HRFaceDetector {
+  umbrella header "HRFaceDetector.h"
+
+  export *
+  module * { export * }
+}
