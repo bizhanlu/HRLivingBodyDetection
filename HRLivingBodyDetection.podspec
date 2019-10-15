@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
 
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.dependency 'SDWebImage','5.2.2'
+  s.dependency 'SDWebImage'
   s.dependency 'MBProgressHUD'
   s.dependency 'IQKeyboardManager'
   s.dependency 'NIMSDK'
