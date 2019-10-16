@@ -1,0 +1,6 @@
+framework module BHFaceDetector {
+  umbrella header "BHFaceDetector.h"
+
+  export *
+  module * { export * }
+}

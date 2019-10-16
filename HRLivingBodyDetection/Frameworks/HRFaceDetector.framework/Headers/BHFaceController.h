@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HRFaceBaseMacro.h"
-#import "BHFaceController.h"
 #import <BHFaceDetector/BHFaceEnumType.h>
 #import <BHFaceDetector/STLivenessDetectorDelegate.h>
 

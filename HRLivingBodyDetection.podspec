@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
     zh.vendored_frameworks = 'HRLivingBodyDetection/Frameworks/MGFaceID*.framework'
     zh.resources ='HRLivingBodyDetection/Resources/MGFaceIDLiveCustomDetect.bundle'
   end
-
+  
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.dependency 'SDWebImage'
