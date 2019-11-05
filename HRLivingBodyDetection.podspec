@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLivingBodyDetection'
   s.version          = '1.0.0'
-  s.summary          = '银行活体检测包以及面签和电签的第三方依赖.'
+  s.summary          = '银行活体检测包以及面签和电签的第三方依赖等.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
