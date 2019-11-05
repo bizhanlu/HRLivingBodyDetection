@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLivingBodyDetection'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of HRLivingBodyDetection.'
+  s.summary          = '银行活体检测包以及面签和电签的第三方依赖.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+银行活体检测包以及面签和电签的第三方依赖。版本1.0.0
                        DESC
 
   s.homepage         = 'https://github.com/bizhanlu/HRLivingBodyDetection'
