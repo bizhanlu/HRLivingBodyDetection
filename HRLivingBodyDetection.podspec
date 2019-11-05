@@ -34,21 +34,14 @@ TODO: Add long description of the pod here.
     gh.libraries = 'c++'
     gh.vendored_frameworks = 'HRLivingBodyDetection/Frameworks/*FaceDetector.framework'
     gh.resources ='HRLivingBodyDetection/Resources/BHFace_Resource.bundle'
+   
+    gh.dependency 'Toast'
+    gh.dependency 'Masonry'
   end
 
   s.subspec 'ZHSdkLib' do |zh|
     zh.vendored_frameworks = 'HRLivingBodyDetection/Frameworks/MGFaceID*.framework'
     zh.resources ='HRLivingBodyDetection/Resources/MGFaceIDLiveCustomDetect.bundle'
   end
-  
-  # s.dependency 'AFNetworking', '~> 2.3'
-  
-  s.dependency 'SDWebImage'
-  s.dependency 'MBProgressHUD'
-  s.dependency 'IQKeyboardManager'
-  s.dependency 'NIMSDK'
-  s.dependency 'Masonry'
-  s.dependency 'MJRefresh'
-  s.dependency 'MJExtension'
-  s.dependency 'WPAttributedMarkup'
+
 end
