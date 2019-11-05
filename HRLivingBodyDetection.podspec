@@ -34,9 +34,7 @@ TODO: Add long description of the pod here.
     gh.libraries = 'c++'
     gh.vendored_frameworks = 'HRLivingBodyDetection/Frameworks/*FaceDetector.framework'
     gh.resources ='HRLivingBodyDetection/Resources/BHFace_Resource.bundle'
-   
-    gh.dependency 'Toast'
-    gh.dependency 'Masonry'
+
   end
 
   s.subspec 'ZHSdkLib' do |zh|
@@ -44,4 +42,15 @@ TODO: Add long description of the pod here.
     zh.resources ='HRLivingBodyDetection/Resources/MGFaceIDLiveCustomDetect.bundle'
   end
 
+# 电签和面签依赖的之前的第三方
+  s.dependency 'Toast'
+  s.dependency 'AFNetworking'
+  s.dependency 'SDWebImage'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'NIMSDK'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'MJExtension'
+  s.dependency 'WPAttributedMarkup'
 end
